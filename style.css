@@ -38,25 +38,27 @@ html {
 }
 
 #popup {
-	width: 55vh;
-	height: 55vh;
+	width: 44vh;
+	height: 44vh;
 	background-image: url('Images/mockstock-cadence.jpeg');
 	background-size: cover;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	padding: 30px;
 }
 
 #newsHeading {
-	transform: translateY(100px);
+	transform: translateY(100%);
 	color: white;
 	background-color: black;
 	text-align: center;
-	font-size: x-large;
+	top: 10%;
+	font-size: small;
 	font-family: 'Exo 2', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
+	/* text-transform: uppercase; */
+	letter-spacing: 0.0.5rem;
 }
 
 #popButton {
