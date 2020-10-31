@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Finnexia | IIIT Delhi</title>
+	<link rel="shortcut icon" href="Images/finnexis-logo2.jpeg" type="image/x-icon">
+</head>
+<body onload="myLoader()">
+	<div id="loading"></div>
+
+	<div id="popUpMain">
+		<h1 id="newsHeading">Upcoming Event</h1>
+		<div id="popup"></div>
+		<div id="popButton">
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfDAZm56lDnChvM_CQEWyXpSmywFOFpIZqchtYNMixQDYLLiw/viewform" target="_blank"><button class="register">Register</button></a>
+			<button onclick="notifIgnore()" class="ignore">Ignore</button>
+		</div>
+	</div>
+	
+	<section id="header">
+		<div class="header container">
+			<div class="nav-bar">
+				<div class="brand">
+					<a href="#home"><h1>Finnexia</h1></a>
+				</div>
+				<div class="nav-list">
+					<div class="hamburger">
+						<div class="bar"></div>
+					</div>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#events">Events</a></li>
+						<li><a href="team.html">Our Team</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- Home Page -->
+	<section id="home">
+		<div class="home container">
+			<div class="title-name">
+				<h1 id="title-state">FINNEXIA</h1>
+				<h2 id='text-state'>FINANCE CLUB | IIIT DELHI</h2>	
+				<p id='para-state'></p>
+			</div>
+			
+			<div id="home-logo">
+				<img class="img-logo" src="Images/finnexia-logo.jpeg">
+			</div>
+			
+			<div class="change-button">
+				<button onclick="changeText1()" id='button1'><i class="fa fa-home fa-lg"></i></button>
+				<button onclick="changeText2()" id='button2'><i class="fa fa-question fa-lg"></i></button>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- About us section -->
+	<div class="overall">	
+		<section id="about">
+			<div class="about container">
+				<div>
+					<div>
+						<img class="about-img" src="Images/about-us-clipart.png">
+					</div> 
+				</div>
+				<div>
+					<h1 class="section-title">About Us</h1>
+					<div class="about-icon">
+						<img src="https://img.icons8.com/bubbles/100/000000/money.png"/>
+					</div>
+					<p>Are you fascinated by Stock Trading? Do you love having financial discussions and debates over business strategies? Would you like to share your views on the latest financial happenings with fellow enthusiasts? Do you want to get hands-on experience in stock trading and learn more about trading algorithms?</p>
+					<p><b><br>Finnexia, the Finance Club of Indraprastha Institute of Information Technology, Delhi</b>- is for all the people enamored by the financial world.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	
+	<!--Events section -->
+	<div class="overall">	
+		<section id="events">	
+			<div class="events container">
+				<div class="event-top">
+					<h1 class="section-title">Events</h1>
+					<div class="event-icon">
+						<img src="https://img.icons8.com/bubbles/100/000000/overtime.png"/>
+					</div>
+					<p id='ex'><b>Events planned for  Monsoon 2020</b></p>
+				</div>
+				<div class="event-bottom">
+					
+					<div class="timeline">
+						<div class="event-name left">
+							<div class="content">
+								<h2><i class="fa fa-eur" aria-hidden="true"></i>     Biz Quiz</h2>
+								<p>Want to put your finance knowledge to test? This business quiz is Finnexia's first-ever event.</p>
+							</div>
+						</div>
+						
+						<div class="event-name right">
+							<div class="content">
+								<h2><i class="fa fa-usd" aria-hidden="true"></i>     Algo Trading</h2>
+								<p>We will discuss the basics of algorithm trading and then hold a competition for building an algorithm.</p>
+							</div>
+						</div>
+						
+						<div class="event-name left">
+							<div class="content">
+								<h2><i class="fa fa-inr" aria-hidden="true"></i>     Mock Stock</h2>
+								<p>A game of luck, skill, and strategy. Navigate your way through the stock market, build your portfolios, maximize your profits, and win lucrative gains. <br>It's your chance to check if you play the market or the market plays you!</p>
+							</div>
+						</div>
+						
+						<div class="event-name right">
+							<div class="content">
+								<h2><i class="fa fa-jpy" aria-hidden="true"></i>     Guest Speaker</h2>
+								<p>Speakers from various fields of finance will be invited to give a talk.</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	
+	<!-- Contact us section -->
+	<div class="overall">
+		<section id="contact">
+			<div class="contact container">
+				
+				<div class="contact-top">
+					<h1 class="section-title">CONTACT US</h1>
+				</div>
+				
+				<div class="contact-icon">
+					<img src="https://img.icons8.com/bubbles/100/000000/email.png">
+				</div>
+				
+				<div class="contact-item">
+					<div class="contact-info">
+						<h2>JOIN US</h2>
+						<p><a href="https://forms.gle/gL28BmYBMct4oyDs5" target="_blank"><i class="fa fa-wpforms"></i> Membership Form</a></p>
+					</div>
+					
+					<div class="contact-info">
+						<h2>PRESIDENTS</h2>
+						<p><a href="mailto:samik18090@iiitd.ac.in" target="_blank"><i class="fa fa-envelope"></i> Samik Prakash</a></p>
+						<p><a href="mailto:rachit18301@iiitd.ac.in" target="_blank"><i class="fa fa-envelope"></i> Rachit Bhayana</a></p>	
+					</div>
+					
+					<div class="contact-info">
+						<h2>CONNECT WITH US</h2>
+						<p><a href="https://t.me/joinchat/J1bklxh_yJZ6WA4K92Y-jA" target="_blank"><i class="fa fa-telegram"></i> Telegram</a></p>
+						<p><a href="https://www.instagram.com/finnexia.iiitd/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></p>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	</div>
+	
+	
+	<!-- Footer -->
+	<section id="footer">
+		<div class="footer container">
+			<div class="brand-footer">
+				<h1>© Finnexia | IIIT Delhi</h1>
+			</div>
+		</div>
+	</section>
+	
+	<script src="script.js"></script>
+</body>
+</html>
