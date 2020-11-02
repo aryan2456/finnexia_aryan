@@ -5,12 +5,13 @@
 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<title>Finnexia | IIIT Delhi</title>
 	<link rel="shortcut icon" href="Images/finnexia-logo2.jpeg" type="image/x-icon">
 </head>
 <body onload="myLoader()">
 	<div id="loading"></div>
-
+	
 	<div id="popUpMain">
 		<div id='newsHeading'><h1>Upcoming Event</h1></div>
 		<div id="popup"></div>
@@ -69,7 +70,7 @@
 		<section id="about">
 			<div class="about container">
 				<div>
-					<div>
+					<div data-aos="zoom-in">
 						<img class="about-img" src="Images/about-us-clipart.png">
 					</div> 
 				</div>
@@ -101,28 +102,28 @@
 					
 					<div class="timeline">
 						<div class="event-name left">
-							<div class="content">
+							<div class="content" data-aos="fade-right">
 								<h2><i class="fa fa-eur" aria-hidden="true"></i>     Biz Quiz</h2>
 								<p>Want to put your finance knowledge to test? This business quiz is Finnexia's first-ever event.</p>
 							</div>
 						</div>
 						
 						<div class="event-name right">
-							<div class="content">
+							<div class="content" data-aos="fade-left">
 								<h2><i class="fa fa-usd" aria-hidden="true"></i>     Algo Trading</h2>
 								<p>We will discuss the basics of algorithm trading and then hold a competition for building an algorithm.</p>
 							</div>
 						</div>
 						
 						<div class="event-name left">
-							<div class="content">
+							<div class="content" data-aos="fade-right">
 								<h2><i class="fa fa-inr" aria-hidden="true"></i>     Mock Stock</h2>
 								<p>A game of luck, skill, and strategy. Navigate your way through the stock market, build your portfolios, maximize your profits, and win lucrative gains. <br>It's your chance to check if you play the market or the market plays you!</p>
 							</div>
 						</div>
 						
 						<div class="event-name right">
-							<div class="content">
+							<div class="content" data-aos="fade-left">
 								<h2><i class="fa fa-jpy" aria-hidden="true"></i>     Guest Speaker</h2>
 								<p>Speakers from various fields of finance will be invited to give a talk.</p>
 							</div>
@@ -149,18 +150,18 @@
 				</div>
 				
 				<div class="contact-item">
-					<div class="contact-info">
+					<div class="contact-info" data-aos="fade-up">
 						<h2>JOIN US</h2>
 						<p><a href="https://forms.gle/gL28BmYBMct4oyDs5" target="_blank"><i class="fa fa-wpforms"></i> Membership Form</a></p>
 					</div>
 					
-					<div class="contact-info">
+					<div class="contact-info" data-aos="fade-down">
 						<h2>PRESIDENTS</h2>
 						<p><a href="mailto:samik18090@iiitd.ac.in" target="_blank"><i class="fa fa-envelope"></i> Samik Prakash</a></p>
 						<p><a href="mailto:rachit18301@iiitd.ac.in" target="_blank"><i class="fa fa-envelope"></i> Rachit Bhayana</a></p>	
 					</div>
 					
-					<div class="contact-info">
+					<div class="contact-info" data-aos="fade-up">
 						<h2>CONNECT WITH US</h2>
 						<p><a href="https://t.me/joinchat/J1bklxh_yJZ6WA4K92Y-jA" target="_blank"><i class="fa fa-telegram"></i> Telegram</a></p>
 						<p><a href="https://www.instagram.com/finnexia.iiitd/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></p>
@@ -183,5 +184,13 @@
 	</section>
 	
 	<script src="script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 220,
+			duration: 1000,
+			easing: "ease-in"
+		});
+	</script>
 </body>
 </html>
