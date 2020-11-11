@@ -12,14 +12,14 @@
 <body onload="myLoader()">
 	<div id="loading"></div>
 	
-	<div id="popUpMain">
+	<!-- <div id="popUpMain" data-aos="zoom-in">
 		<div id='newsHeading'><h1>Upcoming Event</h1></div>
 		<div id="popup"></div>
 		<div id="popButton">
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfDAZm56lDnChvM_CQEWyXpSmywFOFpIZqchtYNMixQDYLLiw/viewform" target="_blank"><button class="register">Register</button></a>
 			<button onclick="notifIgnore()" class="ignore">Later</button>
 		</div>
-	</div>
+	</div> -->
 	
 	<section id="header">
 		<div class="header container">
@@ -46,7 +46,7 @@
 	
 	<!-- Home Page -->
 	<section id="home">
-		<div class="home container">
+		<div class="home container" data-aos="fade-in">
 			<div class="title-name">
 				<h1 id="title-state">FINNEXIA</h1>
 				<h2 id='text-state'>FINANCE CLUB | IIIT DELHI</h2>	
@@ -102,28 +102,28 @@
 					
 					<div class="timeline">
 						<div class="event-name left">
-							<div class="content" data-aos="fade-right">
+							<div class="content" data-aos="fade-up">
 								<h2><i class="fa fa-eur" aria-hidden="true"></i>     Biz Quiz</h2>
 								<p>Want to put your finance knowledge to test? This business quiz is Finnexia's first-ever event.</p>
 							</div>
 						</div>
 						
 						<div class="event-name right">
-							<div class="content" data-aos="fade-left">
+							<div class="content" data-aos="fade-up">
 								<h2><i class="fa fa-usd" aria-hidden="true"></i>     Algo Trading</h2>
 								<p>We will discuss the basics of algorithm trading and then hold a competition for building an algorithm.</p>
 							</div>
 						</div>
 						
 						<div class="event-name left">
-							<div class="content" data-aos="fade-right">
+							<div class="content" data-aos="fade-up">
 								<h2><i class="fa fa-inr" aria-hidden="true"></i>     Mock Stock</h2>
 								<p>A game of luck, skill, and strategy. Navigate your way through the stock market, build your portfolios, maximize your profits, and win lucrative gains. <br>It's your chance to check if you play the market or the market plays you!</p>
 							</div>
 						</div>
 						
 						<div class="event-name right">
-							<div class="content" data-aos="fade-left">
+							<div class="content" data-aos="fade-up">
 								<h2><i class="fa fa-jpy" aria-hidden="true"></i>     Guest Speaker</h2>
 								<p>Speakers from various fields of finance will be invited to give a talk.</p>
 							</div>
@@ -149,19 +149,19 @@
 					<img src="https://img.icons8.com/bubbles/100/000000/email.png">
 				</div>
 				
-				<div class="contact-item">
-					<div class="contact-info" data-aos="fade-up">
+				<div class="contact-item" data-aos="fade-in">
+					<div class="contact-info">
 						<h2>JOIN US</h2>
 						<p><a href="https://forms.gle/gL28BmYBMct4oyDs5" target="_blank"><i class="fa fa-wpforms"></i> Membership Form</a></p>
 					</div>
 					
-					<div class="contact-info" data-aos="fade-down">
+					<div class="contact-info">
 						<h2>PRESIDENTS</h2>
 						<p><a href="mailto:samik18090@iiitd.ac.in" target="_blank"><i class="fa fa-envelope"></i> Samik Prakash</a></p>
 						<p><a href="mailto:rachit18301@iiitd.ac.in" target="_blank"><i class="fa fa-envelope"></i> Rachit Bhayana</a></p>	
 					</div>
 					
-					<div class="contact-info" data-aos="fade-up">
+					<div class="contact-info">
 						<h2>CONNECT WITH US</h2>
 						<p><a href="https://t.me/joinchat/J1bklxh_yJZ6WA4K92Y-jA" target="_blank"><i class="fa fa-telegram"></i> Telegram</a></p>
 						<p><a href="https://www.instagram.com/finnexia.iiitd/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></p>
@@ -187,8 +187,8 @@
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 		AOS.init({
-			offset: 220,
-			duration: 1000,
+			offset: 150,
+			duration: 600,
 			easing: "ease-in"
 		});
 	</script>
