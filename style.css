@@ -176,6 +176,9 @@ p {
 	width: 15.5vw;
 	border-radius: 50%;
 }
+#read-here:hover {
+	text-decoration: underline;
+}
 
 .change-button {
 	position: absolute;
