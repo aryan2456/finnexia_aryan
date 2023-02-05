@@ -687,7 +687,7 @@ p {
 .teams img {
 	width: 85%;
 	border-radius: 10px;
-	height:50%;
+	height:100px;
 }
 .teams p {
 	font-weight: bold;
